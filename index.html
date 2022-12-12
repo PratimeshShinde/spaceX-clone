@@ -10,44 +10,78 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Space X</title>
+
     <link
       rel="stylesheet"
       href="CSS/style.css"
     />
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
+    <title>SpaceX</title>
+    <link rel="icon" type="image/x-icon" href="./img/spaceX.png">
   </head>
   <body>
+     <div id="overlay"></div>
+     <div id="mobile-menu" class="mobile-main-menu">
+      <ul>
+        <li><a href="#">Mission</a></li>
+        <li><a href="#">Launches</a></li>
+        <li><a href="#">Carriers</a></li>
+        <li><a href="#">Updates</a></li>
+        <li><a href="#">Shop</a></li>
+
+        <li class="mobile-only"><a href="#">Falcon 9</a></li>
+        <li class="mobile-only"><a href="#">Falcon Heavy</a></li>
+        <li class="mobile-only"><a href="#"></a></li>
+        <li class="mobile-only"><a href="#">Dragon</a></li>
+        <li class="mobile-only"><a href="#">Starship</a></li>
+        <li class="mobile-only"><a href="#">Human Spaceflight</a></li>
+        <li class="mobile-only"><a href="#">Rideshare</a></li>
+        <li class="mobile-only"><a href="#">Starlink</a></li>
+      </ul>
+     </div>
+
     <header class="main-header">
       <div class="logo">
         <a href="index.html">
           <img
             src="img/logo.png"
-            alt="space x"
+            alt="SpaceX"
           />
         </a>
       </div>
       <nav class="desktop-main-menu">
         <ul>
-          <li><a href="falcon9.html">Falcon 9</a></li>
-          <li><a href="falcon-heavy.html">Falcon Heavy</a></li>
-          <li><a href=""></a></li>
-          <li><a href="dragon.html">Dragon</a></li>
-          <li><a href="starship.html">Starship</a></li>
-          <li><a href="human-spaceflight.html">Human Spaceflight</a></li>
-          <li><a href="rideshare.html">Rideshare</a></li>
-          <li><a href="starlink.html">Starlink</a></li>
-          <li><a href="shop.html">Shop</a></li>
+          <li><a href="#">Falcon 9</a></li>
+          <li><a href="#">Falcon Heavy</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#">Dragon</a></li>
+          <li><a href="#">Starship</a></li>
+          <li><a href="#">Human Spaceflight</a></li>
+          <li><a href="#">Rideshare</a></li>
+          <li><a href="#">Starlink</a></li>
+          <li><a href="#">Shop</a></li>
         </ul>
       </nav>
     </header>
+
+    <!-- Hamburger Menu -->
+
+    <button	
+      id="menu-btn"	
+      class="hamburger"	
+      type="button"	
+    >
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </button>
 
     <!-- section A  -->
     <section class="section-a">
       <div class="section-inner">
         <h4>Upcoming Launch</h4>
         <h2>CRS-25 Mission</h2>
-        <a class="btn">
+        <a href="#" class="btn">
           <div class="hover"></div>
           <span>Rewatch</span>
         </a>
@@ -74,7 +108,7 @@
       <div class="section-inner">
         <h4>Recent Launch</h4>
         <h2>Starlink Mission</h2>
-        <a class="btn">
+        <a href="#" class="btn">
           <div class="hover"></div>
           <span>Rewatch</span>
         </a>
@@ -101,7 +135,7 @@
       <div class="section-inner">
         <h4>RECENT MISSION</h4>
         <h2>SES-22 Mission</h2>
-        <a class="btn">
+        <a href="#" class="btn">
           <div class="hover"></div>
           <span>Rewatch</span>
         </a>
@@ -128,7 +162,7 @@
       <div class="section-inner">
         <h4>RECENT Launch</h4>
         <h2>GLOBALSTAR FM15 Mission</h2>
-        <a class="btn">
+        <a href="#" class="btn">
           <div class="hover"></div>
           <span>Rewatch</span>
         </a>
@@ -154,7 +188,7 @@
     <section class="section-e">
       <div class="section-inner">
         <h2>STARSHIP UPDATE</h4>
-        <a class="btn">
+        <a href="#" class="btn">
           <div class="hover"></div>
           <span>Rewatch</span>
         </a>
@@ -180,7 +214,7 @@
     <section class="section-f">
       <div class="section-inner">
         <h2>STARSHIP TO ADD NASA ASTRONAUTS ON THE MOON</h2>
-        <a class="btn">
+        <a href="#" class="btn">
           <div class="hover"></div>
           <span>Rewatch</span>
         </a>
